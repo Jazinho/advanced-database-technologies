@@ -11,8 +11,14 @@ if additional library needed (here: `sqlite3`), use additional `-l` flag:
 ```sh
 gcc -l<library_name> <file_name>.c -o <executable_file>
 ```
+`sqlite3` library can be installed using:
 
-To run:
+```sh
+sudo apt-get update
+sudo apt-get install sqlite3 libsqlite3-dev
+```
+
+To run program:
 
 ```sh
 <executable_file> 
